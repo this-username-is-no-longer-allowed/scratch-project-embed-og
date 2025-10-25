@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta property="og:title" content="Scratch">
+    <meta property="og:description" content="Embedding courtesy of @auto.scout">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="https://scratch.mit.edu/favicon.ico">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#f8a83a">
+    <script>
+	  const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+ document.querySelector('[property=og:url]').setAttribute('content',`https://turbowarp.org/${id}/embed`);
+      
+    </script>
+  </head>
+</html>
