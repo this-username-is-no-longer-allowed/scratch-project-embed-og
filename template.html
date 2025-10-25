@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- These will be replaced when generating the static page -->
+  <meta property="og:title" content="Scratch project {{ID}}">
+  <meta property="og:description" content="Embedding courtesy of @auto.scout">
+  <meta property="og:url" content="{{URL}}">
+  <meta property="og:image" content="{{IMAGE}}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f8a83a">
+  <title>Scratch project {{ID}}</title>
+  <style>html,body{height:100%;margin:0}iframe{border:0;width:100%;height:100vh}</style>
+</head>
+<body>
+  <!-- Browser users get an interactive embed -->
+  <iframe src="https://turbowarp.org/{{ID}}/embed" allowfullscreen></iframe>
+
+  <noscript>
+    <p>This page embeds the Scratch project. Open it here:
+      <a href="https://turbowarp.org/{{ID}}/embed">https://turbowarp.org/{{ID}}/embed</a>
+    </p>
+  </noscript>
+</body>
+</html>
